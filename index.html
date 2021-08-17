@@ -11,21 +11,31 @@
 <body>
         <div class="flex-container">
             <div class="column">
-                <h4>Bill</h4>
-                <input type="number" id="DinnerValue" value="100">
-                <br>
-                <h4>Tip %</h4>
-                <input type="number" id="TipPerc" value="10">
-                <br>
-                <h4>Number of people</h4>
-                <input type="number" id="PeoplePres" value="2">
-                <br>
-                <br>
-                <button onclick="getDinnerValue()">Calculate Amount</button> 
-                <br>
+                <div>
+                    <br>
+                    <label for="DinnerValue">Bill</label>
+                    <br>
+                    <input type="number" id="DinnerValue" value="100" class="inputStyling" >
+                    <br>
+                    <br>
+                    <label for="TipPerc">Tip %</label>
+                    <br>
+                    <input type="number" id="TipPerc" value="10" class="inputStyling" >
+                    <br>
+                    <br>
+                    <label for="PeoplePres">Number of people</label>
+                    <br>
+                    <input type="number" id="PeoplePres" value="2" class="inputStyling" >
+                    <br>
+                    <br>
+                    <button onclick="getDinnerValue()" class="button">Calculate Amount</button> 
+                    <br>
+                    <br>
+                </div>
+                
             </div>
             <div class="column bg-alt">
-                <p id="output"></p>
+                <p id="output" class="outputTextStyling"></p>
             </div>
     </div>
 </body>
