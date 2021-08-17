@@ -1,0 +1,33 @@
+
+body {
+    display: flex;
+    margin: 25px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: #70757a;
+  }
+
+#border {
+    border: 2px solid #DFE1E5;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  .flex-container{
+    border: 2px solid #DFE1E5;
+    padding: 10px;
+    border-radius: 25px;
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	display: -webkit-flex; /* Safari */		
+	display: flex; /* Standard syntax */
+}
+.flex-container .column{
+	padding: 10px;
+	-webkit-flex: 1; /* Safari */
+	-ms-flex: 1; /* IE 10 */
+	flex: 1; /* Standard syntax */
+}
+.flex-container .column.bg-alt{
+}

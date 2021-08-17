@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
     <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Tip Calculator</h2>
-    <br>
-    <h4>Dinner Total:</h4>
-    <input type="number" id="DinnerValue" value="100">
-    <br>
-    <h4>Tip Percentage:</h4>
-    <input type="number" id="TipPerc" value="10">
-    <br>
-    <h4>People Present:</h4>
-    <input type="number" id="PeoplePres" value="2">
-    <br>
-    <br>
-    <br>
-    <button onclick="getDinnerValue()">Calculate Amount</button> 
-    <p id="output"></p>
+        <div class="flex-container">
+            <div class="column">
+                <h4>Bill</h4>
+                <input type="number" id="DinnerValue" value="100">
+                <br>
+                <h4>Tip %</h4>
+                <input type="number" id="TipPerc" value="10">
+                <br>
+                <h4>Number of people</h4>
+                <input type="number" id="PeoplePres" value="2">
+                <br>
+                <br>
+                <button onclick="getDinnerValue()">Calculate Amount</button> 
+                <br>
+            </div>
+            <div class="column bg-alt">
+                <p id="output"></p>
+            </div>
+    </div>
 </body>
 </html>
