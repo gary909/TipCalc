@@ -17,6 +17,6 @@ With CSS:
 
 
 
-![tip calc image](tipCalc2.png)
+![tip calc image](tipCalc3.png)
 
 _________________________
