@@ -47,6 +47,11 @@ input[type=number]::-webkit-inner-spin-button {
     font-family: arial, sans-serif;
     font-size: 16px;
     color: #70757a;
+
+    position: absolute;
+    top: 330px;
+    /* bottom: 10%; */
+    /* left: 50%; */
 }
 
 .button {
